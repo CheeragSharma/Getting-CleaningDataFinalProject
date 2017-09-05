@@ -1,0 +1,44 @@
+## Project Description
+
+One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+
+## Creating the tidy datafile
+
+The goal is to create a tidy data set with the average of each variable for each activity and each subject.
+
+### Guide to create the tidy data file
+
+All related info regarding how the tidy data file is created from the raw data is provided in ReadMe file in this repository.
+
+## Description of the variables in the final_submission.txt file
+
+Classes : grouped_df, tbl_df and data.frame
+dimensions: 180 observations of 8 variables
+
+### Variable names:
+
+Activity_label : atomic with 6 levels. It contains the state of the subject in which the device has recorded the readings.
+
+Subject_Id : int. It is the Id of the subjects that went through the experiments. it lies between 1 to 30.
+
+The features selected for this database come from the accelerometer 3-axial raw signals tAcc-XYZ. 
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
+
+tBodyAcc-mean_x_axis  : num. Readings for x axis direction. Variables were estimated using mean value.
+
+tBodyAcc-mean_y_axis  : num. Readings for y axis direction. Variables were estimated using mean value.
+
+tBodyAcc-mean_z_axis  : num. Readings for z axis direction. Variables were estimated using mean value.
+
+tBodyAcc-median_x_axis: num. Readings for x axis direction. Variables were estimated using median value.
+
+tBodyAcc-median_y_axis: num. Readings for y axis direction. Variables were estimated using median value.
+
+tBodyAcc-median_z_axis: num. Readings for z axis direction. Variables were estimated using median value.
+
+### Source
+"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
+### For More Info:
+"http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
